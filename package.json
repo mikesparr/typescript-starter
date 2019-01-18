@@ -1,0 +1,25 @@
+{
+  "name": "typescript-starter",
+  "version": "1.0.0",
+  "description": "Starter project for Typescript app",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "lint": "./node_modules/.bin/tslint -c tslint.json 'src/**/*.ts'",
+    "test": "./node_modules/.bin/jest",
+    "coverage": "./node_modules/.bin/jest --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.12",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.4"
+  },
+  "author": "Mike Sparr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikesparr/typescript-starter/issues"
+  },
+  "homepage": "https://github.com/mikesparr/typescript-starter#readme"
+}
